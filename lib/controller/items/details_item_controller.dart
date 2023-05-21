@@ -1,0 +1,1 @@
+import 'package:admin_app/core/model/ItemModel.dart';import 'package:get/get.dart';class DetailsItemController extends GetxController {  MainItemModel? item ;  @override  void onInit() {    // TODO: implement onInit    item = Get.arguments['item'];    update();    super.onInit();  }}

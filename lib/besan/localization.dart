@@ -1,0 +1,1 @@
+mixin AppLocale {  static const String title = 'title';  static const Map<String, dynamic> EN = {title: 'Hello'};  static const Map<String, dynamic> AR = {title: 'مرحبا'};}

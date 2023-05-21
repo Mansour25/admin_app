@@ -1,0 +1,1 @@
+import 'package:get/get.dart';import '../core/constant/route_name.dart';class HomeController extends GetxController {  GoToCategoryScreen() {    Get.toNamed(RouteName.category_screen);  }    GoToItemScreen() {    Get.toNamed(RouteName.items_screen);  }    GoToOrderScreen() {    Get.toNamed(RouteName.order_screen);  }}
